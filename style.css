@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  color: #343a40;
+  font-family: 'Poppins', sans-serif;
+}
+
+#education,
+#work-experience,
+#projects,
+#achievements,
+#skills {
+  margin: 1.2rem;
+  padding: 0.5rem;
+}
+
+ul {
+  margin-left: 1.2rem;
+}
+section,
+#about {
+  background-color: white;
+}
+.section-heading {
+  font-size: 18px;
+  font-weight: bolder;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #dadada;
+}
+.section-sub {
+  font-weight: bolder;
+}
+#education .content,
+#work-experience .content,
+#projects .content {
+  color: #6b6c6d;
+}
+p {
+  margin: 0.8rem;
+}
+.content-skills {
+  font-weight: bolder;
+  font-style: italic;
+}
+/*About Section Styling*/
+#profile-pic {
+  height: 25vh;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 0.8rem;
+}
+#avatar {
+  background-image: url(img/profile.svg);
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#name {
+  margin-top: 3rem;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+#aboutme {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #dadada;
+}
+#about {
+  width: 25%;
+  margin: 1.2rem;
+  padding: 0.4rem;
+}
+#details {
+  width: 70%;
+}
+#portfolio {
+  display: flex;
+  justify-content: center;
+}
